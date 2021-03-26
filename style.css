@@ -15,8 +15,8 @@
 
 /* Clock styles */
 .circle {
-  fill: none;
-  stroke: rgb(51, 100, 224);
+  fill: rgb(125, 221, 189);
+  stroke: rgb(110, 143, 229);
   stroke-width: 9;
   stroke-miterlimit: 10;
 }
@@ -47,7 +47,7 @@
 
 .second-arm {
   fill: none;
-  stroke: rgb(51, 100, 224);
+  stroke: rgb(22, 36, 73);
   stroke-width: 4;
   stroke-miterlimit: 10;
 }

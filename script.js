@@ -2,7 +2,7 @@ const hourHand = document.querySelector('#hour');
 const minuiteHand = document.querySelector('#minute');
 const secondHand = document.querySelector('#second');
 
-function runTheClock() {
+const runTheClock = () => {
   //get the current date at this very moment
   const currentDate = new Date();
   const seconds = currentDate.getSeconds();
@@ -25,6 +25,5 @@ function runTheClock() {
     const alarm = new Audio('beep.mp3');
     alarm.play();
   }
-}
-
+};
 setInterval(runTheClock, 1000);
